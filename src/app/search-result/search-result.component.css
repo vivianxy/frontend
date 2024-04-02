@@ -1,0 +1,64 @@
+
+.company_detail {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.company_detail:hover {
+    background-color: #e0e0e0;
+}
+
+#get_company_logo{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50%; */
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline-block !important;
+}
+
+.span-h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.span-h4_num {
+    font-size: 1.5rem;
+}
+.company-about {
+    text-decoration: underline;
+  }
+
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.market-open {
+    color: green;
+  }
+  
+.market-closed {
+    color: red;
+}
+.text-red {
+    color: red;
+  }
+  
+  .text-green {
+    color: green;
+  }
+
+  .news_detail {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.news_img {
+    max-width: 100%;
+    height: auto;
+}
